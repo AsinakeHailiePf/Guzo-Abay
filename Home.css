@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 12px 45px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.logo {
+  font-size: 1.7em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 25px;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  background: #00c853;
+  color: #111;
+  border-color: #00c853;
+  box-shadow: 0 0 10px rgba(0,200,83,0.6);
+}
+
+/* Language Switch Dropdown */
+.lang-switch select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #00c853;
+  color: white;
+  font-weight: 600;
+}
+
+/* Hero Section (BRIGHT IMAGE) */
+.hero {
+  text-align: center;
+  padding: 140px 20px;
+  color: white;
+  background:
+     linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.22)),
+     url("bike.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+  text-shadow: 0 4px 14px rgba(0,0,0,0.65);
+}
+
+.hero p {
+  font-size: 1.25em;
+  margin-bottom: 35px;
+  text-shadow: 0 4px 14px rgba(0,0,0,0.65);
+}
+
+/* Button */
+.btn {
+  background: #00c853;
+  color: #111;
+  padding: 12px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,200,83,0.4);
+}
+
+.btn:hover {
+  background: #009c43;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0,200,83,0.7);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 18px 0;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 0.95em;
+  letter-spacing: 0.5px;
+}
